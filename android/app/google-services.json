@@ -12,7 +12,12 @@
           "package_name": "com.example.gym_coach_app"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "828901134891-egodm0m8aa5hqvfc34f6momdq4ai8bde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBco8f86MR1L2mxXgWfVRdkSN8ZbNHfpdc"
@@ -20,7 +25,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828901134891-egodm0m8aa5hqvfc34f6momdq4ai8bde.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "828901134891-9oaug77qbn7a9cd5m849b4f84gmche8k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.gymCoachApp"
+              }
+            }
+          ]
         }
       }
     }

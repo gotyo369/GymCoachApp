@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:gym_coach_app/screens/auth/ForgotPasswordScreen.dart';
+import 'package:gym_coach_app/screens/auth/LoginScreen.dart';
+import 'package:gym_coach_app/screens/auth/RegisterScreen.dart';
 import 'firebase_options.dart';
 
 void main() async {
@@ -34,6 +37,14 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
+      initialRoute: 'login',
+      routes: {
+        'login': (BuildContext context) => LoginScreen(),
+        'register': (BuildContext context) => RegisterScreen(),
+        'home': (BuildContext context) => RegisterScreen(),
+        'forgot/password': (BuildContext context) => ForgotPasswordScreen(),
+        'profile/edit': (BuildContext context) => ForgotPasswordScreen(),
+      },
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }

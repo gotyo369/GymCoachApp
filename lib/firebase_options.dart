@@ -63,6 +63,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '828901134891',
     projectId: 'gym-coach-57a6c',
     storageBucket: 'gym-coach-57a6c.firebasestorage.app',
+    iosClientId: '828901134891-9oaug77qbn7a9cd5m849b4f84gmche8k.apps.googleusercontent.com',
     iosBundleId: 'com.example.gymCoachApp',
   );
 
@@ -72,6 +73,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '828901134891',
     projectId: 'gym-coach-57a6c',
     storageBucket: 'gym-coach-57a6c.firebasestorage.app',
+    iosClientId: '828901134891-9oaug77qbn7a9cd5m849b4f84gmche8k.apps.googleusercontent.com',
     iosBundleId: 'com.example.gymCoachApp',
   );
 
